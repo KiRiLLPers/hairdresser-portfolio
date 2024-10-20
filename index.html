@@ -6,46 +6,39 @@
 		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Портфолио</title>
-	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		  rel="stylesheet">
 	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 <header class="header">
 	<h1 class="header__title">Veronika <br> Pershina</h1>
-	<p class="header__specialization">Парихмахер и стилист</p>
-	<img class="header__photo" src="assets/images/main-photo.jpg" alt="портрет">
-	<p class="header__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias dolor
-		doloribus esse
-		expedi</p>
-	<button class="header__sign-up">Записаться</button>
+	<p class="header__specialization">Парихмахер - стилист</p>
+	<img class="header__photo" src="assets/images/main-photo.JPEG" alt="портрет">
+	<p class="header__description">Жизнь лучше, когда у тебя есть хороший парикмахер!</p>
+	<button class="header__sign-up"><a class="header__link" href="https://wa.me/79137991826" target={'_blank'}>Записаться</a>
+	</button>
 </header>
 <main>
 	<section class="about">
 		<h2 class="about__title">About me</h2>
 		<div class="about__wrap">
 			<ul class="about__items">
-				<li class="about__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam
-					asperiores
-					consequuntur.
+				<li class="about__item">Работаю с волосами с 2019 года</li>
+				<li class="about__item">Безумно люблю красивые и ухоженные волосы</li>
+				<li class="about__item">"Я не знала, что мои волосы могут выглядеть так!" - то что я постоянно слышу от
+					своих клиентов
 				</li>
-				<li class="about__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam
-					asperiores
-					consequuntur.
-				</li>
-				<li class="about__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam
-					asperiores
-					consequuntur.
-				</li>
-				<li class="about__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam
-					asperiores
-					consequuntur.
-				</li>
-				<li class="about__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam
-					asperiores
-					consequuntur.
-				</li>
+				<li class="about__item">Слежу за трендами, прохожу обучение каждые пол года</li>
+				<li class="about__item">Считаю, что внешние изменения ведут к внутренним</li>
 			</ul>
-			<img class="about__photo" src="./assets/images/main-photo.jpg" alt="фото обо мне">
+			<img class="about__photo" src="./assets/images/about-photo.JPEG" alt="фото обо мне">
 		</div>
 	</section>
 	<section class="portfolio">
@@ -80,10 +73,77 @@
 			</li>
 		</ul>
 	</section>
-	<section class="services">
-		<h2 class="services__title">Services</h2>
+	<section class="price">
+		<h2 class="price__title">price</h2>
+		<ul class="price__items">
+			<li class="price__item">
+				<div class="price__item-wrap">
+					<h3 class="price__item-title">Стрижка</h3>
+					<p class="price__item-description">Консультация, маска по необходимости, стрижка, укладка</p>
+					<p class="price__cost">2 500 рублей</p>
+				</div>
+			</li>
+			<li class="price__item">
+				<div class="price__item-wrap">
+					<h3 class="price__item-title">Челка</h3>
+					<p class="price__item-description"></p>
+					<p class="price__cost">1 000 рублей</p>
+				</div>
+			</li>
+			<li class="price__item">
+				<div class="price__item-wrap">
+					<h3 class="price__item-title">Укладка</h3>
+					<p class="price__item-description">Мытье, сушка, укладка на браш или горячие инструменты,
+						стайлинг</p>
+					<p class="price__cost">1 500 - 2 500 рублей</p>
+				</div>
+			</li>
+			<li class="price__item">
+				<div class="price__item-wrap">
+					<h3 class="price__item-title">Окрашивание в один тон</h3>
+					<p class="price__item-description"></p>
+					<p class="price__cost">5 500 - 10 000 рублей</p>
+				</div>
+			</li>
+			<li class="price__item">
+				<div class="price__item-wrap">
+					<h3 class="price__item-title">Окрашивание корней</h3>
+					<p class="price__item-description"></p>
+					<p class="price__cost">5 500 - 6 500 рублей</p>
+				</div>
+			</li>
+			<li class="price__item">
+				<div class="price__item-wrap">
+					<h3 class="price__item-title">Сложное окрашивание</h3>
+					<p class="price__item-description">Осветление с тонированием + доп. процедуры (уход, подравнивание
+						кончиков, стрижка челки), укладка</p>
+					<p class="price__cost">Рассчитывается индивидуально</p>
+				</div>
+			</li>
+			<li class="price__item">
+				<div class="price__item-wrap">
+					<h3 class="price__item-title">Подбор домашнего ухода</h3>
+					<p class="price__item-description">Разбор имеющегося домашнего ухода, выявление потребностей волос,
+						предоставление рекомендационного листа, обратная связь 2 недели</p>
+					<p class="price__cost">3 500 рублей</p>
+				</div>
+			</li>
+		</ul>
+		<button class="price__sign-up"><a class="price__link" href="https://wa.me/79137991826" target={'_blank'}>Записаться</a>
+		</button>
 	</section>
 </main>
+<footer class="footer">
+	<h2 class="footer__title">Contacts</h2>
+	<ul class="footer__items">
+		<li class="footer__item"><a class="footer__link" href="https://wa.me/79137991826" target={'_blank'}>WhatsApp</a>
+		</li>
+		<li class="footer__item"><a class="footer__link" href="https://t.me/Veroni99" target="_blank">Telegram</a></li>
+		<li class="footer__item"><a class="footer__link"
+									href="https://www.instagram.com/veronika_gr_1?igsh=aXYyYnVwcW1ubHJ3"
+									target={'_blank'}>Instagram</a></li>
+	</ul>
+</footer>
 <footer></footer>
 </body>
 </html>

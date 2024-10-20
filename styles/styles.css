@@ -1,3 +1,8 @@
+body {
+	background: #fcf1e9;
+	color: #69230b;
+}
+
 /*HEADER*/
 .header {
 	padding: 40px 20px;
@@ -8,12 +13,18 @@
 	margin-bottom: 5px;
 	text-transform: uppercase;
 	line-height: 30px;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .header__specialization {
 	font-size: 16px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	font-family: "Philosopher", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .header__photo {
@@ -25,25 +36,47 @@
 	max-width: 80%;
 	margin: 20px auto;
 	text-align: center;
+	font-family: "Philosopher", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .header__sign-up {
 	border: none;
 	background: black;
-	color: white;
 	width: 100%;
-	height: 30px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__link {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-family: "Philosopher", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /*ABOUT*/
 .about {
 	overflow: hidden;
-	padding: 40px 0 20px 20px;
+	padding: 40px 0 40px 20px;
 }
 
 .about__title {
 	font-size: 24px;
 	text-transform: uppercase;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .about__wrap {
@@ -54,7 +87,7 @@
 .about__items {
 	flex: 1;
 	width: 100%;
-	min-width: 180px;
+	min-width: 200px;
 	padding: 15px 0;
 	display: flex;
 	flex-direction: column;
@@ -64,28 +97,32 @@
 .about__item {
 	display: flex;
 	gap: 10px;
+	line-height: 20px;
+	font-family: "Philosopher", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .about__item:before {
 	content: '';
-	background-image: url("../assets/icons/arrow.svg");
+	background-image: url("../assets/icons/flower.svg");
 	display: block;
 	width: 15px;
 	height: 15px;
-	transform: rotate(90deg);
 	flex-shrink: 0;
 }
 
 .about__photo {
 	object-fit: cover;
-	object-position: right;
+	object-position: center;
 	width: 100%;
 	max-width: 300px;
+	max-height: 395px;
 }
 
 /*PORTFOLIO*/
 .portfolio {
-	padding: 20px;
+	padding: 40px 20px;
 	overflow: hidden;
 }
 
@@ -93,6 +130,9 @@
 	font-size: 24px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .portfolio__items {
@@ -114,13 +154,120 @@
 	min-height: 200px;
 }
 
-/*SERVICES*/
-.services {
-	padding: 20px;
+/*PRICE*/
+.price {
+	padding: 40px 20px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.price__title {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.price__items {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.price__item {
+	border: 1px solid black;
+	padding: 10px;
+	display: flex;
+	gap: 5px;
+	font-family: "Philosopher", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 20px;
+}
+
+.price__count {
+	color: #69230b;
+}
+
+.price__item-wrap {
+	flex: 1;
+}
+
+.price__item-title {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.price__item-description {
+	margin-bottom: 5px;
+}
+
+.price__cost {
+	display: flex;
+	justify-content: end;
+	color: black;
+}
+
+.price__sign-up {
+	border: none;
+	background: black;
+	width: 100%;
+	height: 40px;
+}
+
+.price__link {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-family: "Philosopher", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*FOOTER*/
+.footer {
+	padding: 40px 20px;
 	overflow: hidden;
 }
 
-.services__title {
+.footer__title {
 	font-size: 24px;
 	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.footer__items {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer__item {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.footer__link {
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
