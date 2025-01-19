@@ -262,6 +262,11 @@ main {
 	font-family: "peridot", sans-serif;
 }
 
+.price__item-description_keralex {
+	display: flex;
+	justify-content: space-between;
+}
+
 .price__cost {
 	display: flex;
 	justify-content: end;
